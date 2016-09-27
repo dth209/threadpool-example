@@ -10,7 +10,7 @@ public class Job implements Runnable
   public void run()
   {
     //Undertake required work, here we will emulate it by sleeping for a peiod 
-    System.out.println("Job: " + "jobNumber + "is being processed by thread: " + Thread.currentThread().getName());
+    System.out.println("Job: " + "jobNumber + " is being processed by thread: " + Thread.currentThread().getName());
   
     try 
     {
